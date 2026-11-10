@@ -16,6 +16,8 @@ bibliotheque-api/
 │   └── users.js              # Routes /users
 ├── postman_collection.json   # Collection de tests Postman
 ├── Procfile                  # Commande de démarrage pour Heroku
+├── DEPLOIEMENT_RENDER.md     # Fiche de déploiement Render
+├── DEPLOIEMENT_HEROKU.md     # Fiche de déploiement Heroku
 ├── package.json
 └── .gitignore
 ```
@@ -26,7 +28,7 @@ bibliotheque-api/
 
 ## Installation et lancement en local
 
-Prérequis : Node.js 22.
+Prérequis : Node.js 24 LTS.
 
 ```bash
 npm install
@@ -109,7 +111,15 @@ tout ce qu'elle crée : on peut la relancer autant de fois que nécessaire.
 Pour tester la version en ligne, modifier la variable `baseUrl` de la collection
 (onglet **Variables**) avec l'URL Heroku.
 
+## Déploiement sur Render (gratuit)
+
+L'API est déployée sur Render depuis GitHub (offre gratuite, sans carte bancaire).
+Fiche détaillée : [DEPLOIEMENT_RENDER.md](DEPLOIEMENT_RENDER.md)
+
 ## Déploiement sur Heroku
+
+> Fiche détaillée (lecture du journal, commandes utiles, dépannage) :
+> [DEPLOIEMENT_HEROKU.md](DEPLOIEMENT_HEROKU.md)
 
 Prérequis : un compte Heroku, [Git](https://git-scm.com/) et la
 [CLI Heroku](https://devcenter.heroku.com/articles/heroku-cli) installés.
