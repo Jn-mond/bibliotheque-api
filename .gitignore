@@ -1,0 +1,10 @@
+# Dépendances : réinstallées par "npm install" (et par Heroku au déploiement)
+node_modules/
+
+# Variables d'environnement locales (ne jamais les versionner)
+.env
+
+# Journaux et fichiers système
+npm-debug.log*
+.DS_Store
+Thumbs.db

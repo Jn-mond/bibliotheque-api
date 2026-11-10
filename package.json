@@ -1,0 +1,17 @@
+{
+  "name": "bibliotheque-api",
+  "version": "1.0.0",
+  "description": "API REST de gestion d'une bibliothèque (livres et utilisateurs)",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "engines": {
+    "node": "22.x"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
